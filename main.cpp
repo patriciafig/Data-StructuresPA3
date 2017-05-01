@@ -24,7 +24,7 @@ int main(int argc, char** argv){
   return 0;
 
  number_of_columns = hw4::Get_Width(); // get number of columns for output //
- hw4::Format_Input(InFile, number_of_columns, formatted_text); //
+ hw3::Format_Input(InFile, number_of_columns, formatted_text); //
 
  InFile.close(); // close input file
 
